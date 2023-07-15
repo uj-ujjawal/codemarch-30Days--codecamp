@@ -1,0 +1,31 @@
+/* changing color of the entire page/body and setting a diff font for everyone. */
+body {
+  background-color: slategrey;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* for header tag and all child tag of header tag : change font-color and bg-color */
+header {
+  background-color: #023047;
+  font-family: "Courier New", Courier, monospace;
+  color: #fb8500;
+}
+/* applying same margin and padding for header and p tag */
+header,
+p {
+  padding: 20px;
+  margin: 50px;
+}
+/* p tag : change font-color and bg-color */
+p {
+  color: rgb(142, 202, 230);
+  background-color: darkred;
+}
+/* specifying css for a div with class name box. */
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #219ebc;
+  margin: 0 auto;
+  border: 2px solid #011e25;
+}

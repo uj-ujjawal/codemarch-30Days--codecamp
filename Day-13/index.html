@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- External css -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- font-awesome css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- title of webpage -->
+    <title>Day 13: VisualFx</title>
+  </head>
+  <body>
+    <header>
+      <i class="fa fa-solid fa-hurricane fa-beat"></i>
+      <h1>Visual<span class="all-caps">fx</span></h1>
+      <p>shadow-effects | opacity | filter | image-sprites</p>
+    </header>
+    <main>
+      <p>Unleash the power of visual effects</p>
+      <div class="bg"></div>
+    </main>
+    <section class="section" id="img-gallery-section">
+      <figure>
+        <img src="./img1.jpg" alt="image of teapot" id="blur" />
+        <figcaption><code>filter:blur(10px)</code></figcaption>
+      </figure>
+      <figure>
+        <img src="./img1.jpg" alt="image of teapot" id="brightness" />
+        <figcaption><code>filter:brightness(0.5)</code></figcaption>
+      </figure>
+      <figure>
+        <img src="./img1.jpg" alt="image of teapot" id="grayscale" />
+        <figcaption><code>filter:grayscale(50%)</code></figcaption>
+      </figure>
+      <figure>
+        <img src="./img1.jpg" alt="image of teapot" id="invert" />
+        <figcaption><code>filter:invert(100%)</code></figcaption>
+      </figure>
+      <figure>
+        <img src="./img1.jpg" alt="image of teapot" id="opacity" />
+        <figcaption><code>filter:opacity(50%)</code></figcaption>
+      </figure>
+
+      <figure>
+        <img src="./img1.jpg" alt="image of teapot" id="sepia" />
+        <figcaption><code>filter:sepia(100%)</code></figcaption>
+      </figure>
+
+      <figure>
+        <img src="./img1.jpg" alt="image of teapot" id="drop-shadow" />
+        <figcaption>
+          <code
+            >filter:drop-shadow(x,y,blur, color); <br />filter: drop-shadow(5px
+            0px 10px red)
+          </code>
+        </figcaption>
+      </figure>
+    </section>
+  </body>
+</html>

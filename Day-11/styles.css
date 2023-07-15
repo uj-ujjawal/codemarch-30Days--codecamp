@@ -1,0 +1,31 @@
+header {
+  margin: 10px;
+}
+h1 {
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+nav {
+  background-color: #ff6347;
+}
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+li {
+  text-transform: capitalize;
+  list-style: none;
+  font-size: 18px;
+  color: #000;
+  padding: 20px 20px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+li:hover {
+  background-color: #d63d0f;
+}

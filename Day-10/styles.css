@@ -1,0 +1,18 @@
+/* for container class div */
+.container {
+  margin: 50px;
+  padding: 20px;
+  background-color: #690290;
+}
+/* for inner class div that is child of container class div */
+.inner {
+  margin: 20px;
+  padding: 20px;
+  background-color: #908431;
+}
+
+/* for outer class div */
+.outer {
+  margin: 20px 50px;
+  background-color: #ff6347;
+}

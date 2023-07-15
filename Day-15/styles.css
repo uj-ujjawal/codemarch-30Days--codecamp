@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.6rem;
+}
+.container {
+  padding: 3rem;
+}
+h1,
+h2,
+h3,
+.fa {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-shadow: 2px 2px 2px tomato;
+}
+
+h1,
+.fa {
+  font-size: 5.2rem;
+  color: lightblue;
+  letter-spacing: 0.3rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+header {
+  background-color: #040404;
+  padding: 1.5em;
+  text-align: center;
+}
+nav {
+  background-color: lightblue;
+  margin-bottom: 8rem;
+}
+
+nav ul {
+  padding: 0 4rem;
+  list-style-position: inside;
+}
+
+nav li:nth-child(2) {
+  margin: 1rem 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #515151;
+}
+
+th {
+  background-color: tomato;
+}
+
+td,
+th {
+  padding: 1rem;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background: black;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 1em;
+}
+
+tr:nth-of-type(odd) {
+  background-color: lightcyan;
+}
+
+tr:nth-of-type(even) {
+  background-color: lightblue;
+}

@@ -1,0 +1,34 @@
+header {
+  background-color: tomato;
+}
+
+header,
+p {
+  padding: 0.4rem;
+  margin: 1.5rem;
+}
+
+.fa {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 3.5rem;
+  margin: 1rem 0 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 0.1rem;
+}
+
+p {
+  background-color: yellowgreen !important;
+}
+p {
+  background-color: teal;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 0.2rem;
+}

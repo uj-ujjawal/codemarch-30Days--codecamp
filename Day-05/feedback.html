@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 05: Feedback Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>&#128221; Feedback Form</h1>
+    </header>
+    <section class="section" id="location-section">
+      <h2>Our Location</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227822.60371680342!2d80.77770034295148!3d26.84859648335098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd991f32b16b%3A0x93ccba8909978be7!2sLucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1689223051277!5m2!1sen!2sin"
+        width="500"
+        height="350"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+    <section class="section" id="misc-media-section">
+      <h2>Our Theme Songs</h2>
+      <audio controls>
+        <source src="audio.mp3" />
+        Your browser does not support the audio tag.
+      </audio>
+      <h2>Canvas Placeholder Image</h2>
+      <canvas
+        style="border: 1px solid; width: 400px; height: 200px"
+        id="myCanvas"
+      ></canvas>
+    </section>
+    <section class="section" id="feedback-form-section">
+      <h2>Feedback Form</h2>
+      <form action="#" method="get">
+        <fieldset style="border: 0">
+          <label for="name">Name</label><br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="jhon Smith"
+          /><br />
+          <label for="email">Email</label><br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="demo@gmail.com"
+          />
+          <br />
+          <label for="comment">Feedback Form</label> <br />
+          <textarea name="Feedback" id="comment" cols="30" rows="5"></textarea
+          ><br />
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </section>
+  </body>
+</html>
