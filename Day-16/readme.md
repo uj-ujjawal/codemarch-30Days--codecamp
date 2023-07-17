@@ -6,6 +6,8 @@
 - Topic 4 - CSS Pseudo-classes
 - Topic 5 - CSS Pseudo-Elements
 
+To read any of the above topic please visit: <https://mdjunaidap.notion.site/Day-16-66527a231c80444289d29c35c77e3e61>
+
 ## Assignment: WebElements Enhancement
 
 ### Objective
@@ -62,3 +64,8 @@ The objective of this assignment is to practice applying CSS properties related 
 ### Here is your Day 16 Assignment👇🏻
 
 ![assignment-16](./image%20(16).png)
+
+## CREDITS
+
+- **Website:** [codemarch](https://codemarch.gumroad.com/)
+- **Social:** [twitter](https://twitter.com/codemarch) | [Discod](https://discord.com/invite/7g9WddcyKt)
