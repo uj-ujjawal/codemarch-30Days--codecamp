@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+:root {
+  --bg-color: #1b1b1b;
+  --main-color: rgb(148, 0, 211);
+  --txt-lg: linear-gradient(45deg, white, darkviolet);
+  --sec-lg: linear-gradient(-35deg, #fff, tomato 30%, darkred 60%);
+}
+body {
+  font-size: 1.6rem;
+  background-color: var(--bg-color);
+  color: #fff;
+}
+
+h1 {
+  font-size: 5.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  background: var(--txt-lg);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+p {
+  font-size: 1.6rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited,
+a:active {
+  color: #fff;
+  text-decoration: none;
+}
+a {
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 300ms ease-in-out;
+}
+a:hover {
+  border-bottom-color: #fff;
+}
+img {
+  max-width: 60rem;
+  width: 100%;
+}
+header {
+  background: var(--main-color);
+  height: 6rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 0 3rem;
+}
+.hero-section {
+  text-align: center;
+}
+
+.hero-section p {
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.section {
+  margin: 3rem 0;
+}
+
+.about-section {
+  background: var(--sec-lg);
+  padding: 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.hero-section .container {
+  flex-direction: column;
+  gap: 0;
+}
+.para + .para {
+  margin: 3rem 0;
+}
+.desc {
+  width: 100%;
+}
+.img {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.pagination {
+  margin: 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.btn {
+  padding: 1em;
+  text-align: center;
+  border: none;
+}
+.btn:hover {
+  background: linear-gradient(-45deg, #fff, lightblue 50%);
+}
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip-text {
+  position: absolute;
+  width: 20rem;
+  height: 3rem;
+  top: -2.5rem;
+  padding: 0.3em;
+  transition: visibility 30ms ease-in-out;
+}
+.back .tooltip-text {
+  left: -64px;
+}
+.next .tooltip-text {
+  top: -2.5rem;
+  right: -54px;
+  text-align: right;
+}
+.tooltip-text {
+  font-size: 1.4rem;
+  visibility: hidden;
+  color: wheat;
+}
+
+.back:hover .tooltip-text {
+  visibility: visible;
+}
+
+.next:hover .tooltip-text {
+  visibility: visible;
+}
