@@ -53,3 +53,8 @@ The objective of this assignment is to demonstrate your understanding of respons
 ![mv-1](assets/img/mv-2.png)
 
 ![mv-1](assets/img/mv-3.png)
+
+## CREDITS
+
+- **Website:**[codemarch](https://codemarch.gumroad.com/)
+- **Social:** [twitter](https://twitter.com/codemarch) | [Discod](https://discord.com/invite/7g9WddcyKt)
