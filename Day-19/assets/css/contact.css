@@ -1,0 +1,61 @@
+@import url(./header.css);
+@import url(./styles.css);
+
+/* contact-section */
+h3 {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.contact-section .row {
+  gap: 10rem;
+}
+.col {
+  width: 100%;
+}
+.col img {
+  max-width: 100%;
+
+  border-radius: 5px;
+}
+
+.col p {
+  margin-top: 2rem;
+}
+
+.content-col {
+  align-self: flex-start;
+}
+
+fieldset {
+  border: none;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+label {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+input,
+textarea {
+  margin-bottom: 4rem;
+  width: 100%;
+  height: 4rem;
+  padding: 0.5em;
+  border: 1px solid lightblue;
+  border-radius: 0.2rem;
+}
+textarea {
+  height: 10rem;
+}
+.btn {
+  display: block;
+  padding: 1em;
+  margin: 0 auto;
+  background: black;
+  color: #fff;
+  border: none;
+  border-radius: 0.2rem;
+}

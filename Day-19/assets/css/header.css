@@ -1,0 +1,20 @@
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: darkred;
+  height: 7rem;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+ul {
+  justify-self: center;
+  gap: 3rem;
+}
+
+nav ul li a {
+  color: #fff;
+}

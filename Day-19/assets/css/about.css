@@ -1,0 +1,23 @@
+@import url(./header.css);
+@import url(./styles.css);
+
+/* about-section */
+.about-section .row {
+  gap: 10rem;
+}
+.col {
+  width: 100%;
+}
+.col img {
+  width: 100%;
+
+  border-radius: 5px;
+}
+
+.col p {
+  margin-top: 2rem;
+}
+
+.content-col {
+  align-self: flex-start;
+}

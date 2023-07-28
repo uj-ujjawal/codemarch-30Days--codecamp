@@ -1,0 +1,31 @@
+@import url(./header.css);
+@import url(./styles.css);
+/* main-section */
+
+.main-section {
+  height: 95vh;
+  background: url(../img/r1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-text {
+  padding-top: 9rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
+.hero-text p,
+.cta-btn {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+.cta-btn {
+  width: 20rem;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  border-radius: 5px;
+  padding: 1em;
+}
