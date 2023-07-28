@@ -54,3 +54,8 @@ The objective of this assignment is to demonstrate your understanding of the CSS
 ### Here is your Day 21 Assignment
 
 ![Untitled](./asset/img/op.png)
+
+## CREDITS
+
+- **Website:**[codemarch](https://codemarch.gumroad.com/)
+- **Social:** [twitter](https://twitter.com/codemarch) | [Discod](https://discord.com/invite/7g9WddcyKt)
