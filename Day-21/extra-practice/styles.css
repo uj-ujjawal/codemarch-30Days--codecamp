@@ -1,0 +1,117 @@
+.grid {
+  background-color: darkcyan;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+.grid-container {
+  display: grid;
+  margin: 1rem;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  padding: 0.2em;
+}
+.grid-item {
+  text-align: center;
+  border: 2px solid white;
+  padding: 0.5em;
+}
+
+/* simple grid */
+.simple-grid .grid-container {
+  grid-template-columns: auto auto auto;
+  border: 1px solid #000;
+  background-color: wheat;
+  padding: 1rem;
+}
+
+.simple-grid .grid-item {
+  background: tomato;
+}
+
+/* row-gap simple-grid-1 */
+.simple-grid-1 {
+  row-gap: 2rem;
+}
+
+/* column-gap simple-grid-2 */
+.simple-grid-2 {
+  column-gap: 2rem;
+}
+
+/* gap simple-grid-3 */
+.simple-grid-3 {
+  gap: 1rem 3rem; /* gap: row cols */
+  gap: 2rem; /* gap:row&cols */
+}
+/* grid-template-col/row */
+.grid-col .grid-container {
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-col .grid-item {
+  background: lightblue;
+}
+
+.grid-row .grid-container {
+  grid-template-rows: 100px 300px auto;
+}
+
+/* grid, more on display */
+.grid-display .grid-container {
+  grid-template-columns: 100px 200px 100px;
+  gap: 50px;
+  background: turquoise;
+}
+.grid-display .grid-display-1 {
+  justify-content: space-evenly;
+}
+
+.grid-display .grid-display-2 {
+  justify-content: space-between;
+}
+
+.grid-display .grid-display-3 {
+  justify-content: space-around;
+}
+.grid-display .grid-display-4 {
+  justify-content: center;
+}
+/* align-content */
+.grid-display .grid-display-5 {
+  height: 300px;
+  justify-content: center;
+  align-content: center;
+}
+
+.grid-display .grid-display-6 {
+  height: 300px;
+  justify-content: center;
+  align-content: start;
+}
+
+.grid-display .grid-display-7 {
+  height: 300px;
+  justify-content: center;
+  align-content: end;
+}
+
+.grid-display .grid-display-8 {
+  height: 300px;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.grid-display .grid-display-9 {
+  height: 300px;
+  justify-content: center;
+  align-content: space-evenly;
+}
+
+.grid-display .grid-display-10 {
+  height: 300px;
+  justify-content: center;
+  align-content: space-around;
+}
