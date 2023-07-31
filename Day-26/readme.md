@@ -48,8 +48,8 @@ The objective of this assignment is to reinforce your understanding of fundament
 
 ### Assignment Resources
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7a1ff056-7b4f-4079-ac26-61e16dbf4e50/Untitled.png)
+![res1](./assets/image.png)
 
 ### Here is your Day 26 Assignment
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/08645aa9-161b-4af6-a723-5143050e1972/Untitled.png)
+![assignment26](./assets/a26.png)
